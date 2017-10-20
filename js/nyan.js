@@ -44,6 +44,9 @@ var Sparks = function () {
 };
 
 $(function() {
+	var audio = document.getElementById("audio"); 
+	vid.volume = 0.2;
+	
 	var nyancat = new NyanCat(),
 			sparks = new Sparks();
 
